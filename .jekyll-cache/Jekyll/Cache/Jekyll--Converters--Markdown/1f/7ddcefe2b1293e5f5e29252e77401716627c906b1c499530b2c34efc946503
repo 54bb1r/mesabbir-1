@@ -1,0 +1,26 @@
+I"�<p>In software development, Software testing has played a vital role. It gives confidence that the application works well, which it should be. Test automation gives a dimension to Software testing. There are several test automation tools available, In this series, we will talk about Cypress. Which is quite new and not selenium-dependent which makes it faster.  Let’s dive into our Awesome [hopefully ✌️] journey.</p>
+
+<h1 id="install-cypress">Install Cypress</h1>
+
+<h2 id="windows-">Windows :</h2>
+
+<p>To install Cypress in your machine first we need Nodejs. You can download it from <a href="https://nodejs.org/en/download/">here</a> for windows/mac/Linux.</p>
+
+<p>Now we will install Cypress in our project. We will use <code class="language-plaintext highlighter-rouge">npm init</code> to initialize the project with basic nodejs installation. For now, we can install Cypress in our project for our web application.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">npm</span> <span class="nx">install</span> <span class="nx">Cypress</span> <span class="err">—</span><span class="nx">save</span><span class="o">-</span><span class="nx">dev</span></code></pre></figure>
+
+<p>or</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">npx</span> <span class="nx">cypress</span> <span class="nx">install</span></code></pre></figure>
+
+<p>When we install cypress in our project, we can run</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">npx</span> <span class="nx">Cypress</span> <span class="nx">open</span></code></pre></figure>
+
+<p>when we click this, it will open a test runner like this :</p>
+
+<p><img src="/assets/images/test_runner.png" alt="Test Runner" /> {: max-width=”150px” }</p>
+
+<p><img src="" alt="Test Runner" /> {/assets/images/test_runner.png:img?width=”150px” }</p>
+:ET
